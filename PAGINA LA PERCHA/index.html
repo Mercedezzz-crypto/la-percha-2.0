@@ -1,0 +1,129 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambia tu guardarropa y cambia tu vida 
+
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado con Navegación -->
+    <header>
+        <h1  class="logo">LA PERCHA</h1>
+        
+        <nav>
+        
+            
+            
+            <ul>
+                <li><a href="#nuestra-historia">Nuestra Historia</a></li>
+                <li><a href="#colecciones">Colecciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="crear-cuenta.html">Crear Cuenta</a></li>
+                <li><a href="carrito.html"> Carrito de Compras</a>
+
+
+
+
+
+                    
+                <!-- Carrito de Compras -->
+<section id="carrito">
+    <h2></h2>
+    <div id="productos-carrito">
+        <!-- Los productos se añadirán aquí dinámicamente -->
+    </div>
+    <div id="total">
+        <p>Total: S/. <span id="total-sum">0.00</span></p>
+    </div>
+    <button id="vaciar-carrito" onclick="vaciarCarrito()">Vaciar Carrito</button>
+    <button id="comprar" onclick="finalizarCompra()">Finalizar Compra</button>
+</section>
+
+</li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal de Bienvenida -->
+    <section id="bienvenida" class="hero">
+        <div class="contenido-hero">
+            <h2>Cambia tu guardarropa y cambia tu vida</h2>
+            <p></p>
+            <a href="#colecciones" class="btn-descubre">Descubre nuestras colecciones</a>
+        </div>
+    </section>
+
+    <!-- Nuestra Historia -->
+    <section id="nuestra-historia" class="seccion">
+        <h2>Historia de LA PERCHA</h2>
+        <p>se puede resumir en las siguientes palabras: Dedicación, perseverancia e Ingenio.
+
+            Conocer la historia de los Hermanos Flores y de los miles de peruanos que brindaron su talento y capacidad en los primeros talleres de confección textil, ahora convertidos en nuestra organización, es motivo de orgullo y nos complace contarla al mundo.</p>
+        <p>Misión</p> 
+             Ofrecer una experiencia de compra única, con productos de calidad que transmiten elegancia y feminidad en cada detalle.</p>
+    </section>
+
+    <!-- Colecciones -->
+    <section id="colecciones" class="seccion">
+        <h2>Colecciones Exclusivas</h2>
+        <div class="productos">
+            <!-- Blusa -->
+            <div class="producto">
+                <img src="blusas 1..jpg" alt="Blusa Exclusiva">  <p class="precio">Precio: S/. 49.00</p> <!-- Aquí va el precio -->
+                <button onclick="agregarAlCarrito(1, 'Blusa Elegante', 50.00)">Añadir al Carrito</button>
+                <h3>Blusas</h3>
+                <p>Descubre nuestras blusas que combinan elegancia y comodidad, perfectas para cualquier ocasión.</p>
+                <a href="blusas.html" class="btn-ver-mas">Ver Blusas
+                    
+                </a>
+                
+            </div>
+            <!-- Vestido -->
+            <div class="producto">
+                <img src="vestido 1.jpg" alt="Vestido Elegante"> <p class="precio">Precio: S/. 50.00</p> <!-- Aquí va el precio -->
+                <button onclick="agregarAlCarrito(1, 'Blusa Elegante', 50.00)">Añadir al Carrito</button>
+                <h3>Vestidos</h3>
+               
+                
+                <h3></h3>
+                <p>Explora nuestros vestidos, diseñados para resaltar tu estilo único y hacerte sentir especial.</p>
+                <a href="vestidos.html" class="btn-ver-mas">Ver Vestidos</a>
+                
+                
+    
+            </div>
+            <!-- Pantalón -->
+            <div class="producto">
+                <img src="pantalonn.jpg" alt="Pantalón Moderno"><p class="precio">Precio: S/. 50.00</p> <!-- Aquí va el precio -->
+                <button onclick="agregarAlCarrito(1, 'Blusa Elegante', 79.00)">Añadir al Carrito</button>
+                <h3>Pantalones</h3>
+                <p>Pantalones modernos y versátiles que se adaptan a tu ritmo de vida y destacan tu estilo.</p>
+                <a href="pantalones.html" class="btn-ver-mas">Ver Pantalones</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <section id="contacto" class="seccion">
+            <h2>Contáctanos</h2>
+            <p>Para consultas sobre productos, pedidos o cualquier otra inquietud, comunícate con nosotros:</p>
+            <p>Correo electrónico: <a href="mailto:atencion@lapercha.com">atencion@lapercha.com</a></p>
+            <p>Teléfono: +51 987 654 321</p>
+            <p>Síguenos en redes sociales:</p>
+            <ul class="redes-sociales">
+                <li><a href="https://instagram.com/lapercha" target="_blank">Instagram | @lapercha</a></li>
+                <li><a href="https://facebook.com/lapercha" target="_blank">Facebook | facebook.com/lapercha</a></li>
+                <li><a href="https://twitter.com/lapercha" target="_blank">Twitter | @lapercha</a></li>
+            </ul>
+        </section>
+    </footer>
+
+    <!-- Enlace a archivo de JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
